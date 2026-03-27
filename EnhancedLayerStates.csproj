@@ -1,1 +1,10 @@
-
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetExt>.rhp</TargetExt>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="9.0.24079.13001-wip" />
+    <PackageReference Include="Rhino.UI" Version="9.0.24079.13001-wip" />
+  </ItemGroup>
+</Project>
